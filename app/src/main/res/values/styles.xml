@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#cd13d8</item>
+        <item name="colorPrimaryDark">#b6cae9</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">#cd13d8</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyImageViewStyle" >
+        <item name="android:background">#000000</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+</resources>
